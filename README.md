@@ -41,7 +41,7 @@ The ```Cube2``` class also has three constructors.
 
 ```color``` defaults to "black".  No error checking is required for ```color```.
 
-Side should never be less than 1. If a user attempts to create a Cube with a side length less than 1, an IllegalArgumentException will be thrown. The message “A cube’s side length cannot be less than 1!” will be displayed in the console when the exception occurs. If a user attempts to change the side length of an already existing ```Cube``` object to a value less than 1, again, an IllegalArgumentException will be thrown, and the message “A cube’s side length cannot be less than 1!” will be displayed in the console when the exception occurs.
+Side should never be less than 1. If a user attempts to create a ```Cube2``` with a side length less than 1, an IllegalArgumentException will be thrown when you initialize the Cube property. This is already handled by the ```Cube``` class you wrote in the Cube I lab, but here's a reminder of how to throw exceptions:
 
 ```
 if (side < 1) {
