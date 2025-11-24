@@ -9,6 +9,8 @@ public class Cube2 {
     }
 
     public Cube2(int side) {
+        this();
+        basicCube.setSide(side);
             if (side < 1) {
                 throw new IllegalArgumentException("A cube’s side length must be equal to or greater than 1!");
             }
